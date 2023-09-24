@@ -1,0 +1,13 @@
+.resultHeading{
+    font-family:Inter, sans-serif;
+    font-weight:600;
+    font-size:76px;
+    color:#ffffff;
+    text-shadow:5px 3px #00000040;
+    text-align: center;
+}
+@media screen and (max-width: 680px) {
+    .resultHeading{
+        font-size:50px;
+    }
+}
