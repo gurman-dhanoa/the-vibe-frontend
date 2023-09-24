@@ -45,7 +45,7 @@ const CreateStudent = () => {
     if (success) {
       dispatch(fetchStudents());
     }
-  }, [dispatch, errors ,success]);
+  }, [dispatch, errors , toast, success]);
 
   return (
     <Center>

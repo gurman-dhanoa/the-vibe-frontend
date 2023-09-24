@@ -26,13 +26,13 @@ const AdminStudent = () => {
       dispatch(fetchStudents());
     }
 
-  }, [dispatch, errors, success]);
+  }, [dispatch, errors, success, toast]);
   const deleteStudentHandler = (id) => {
     dispatch(deleteStudent(id));
   };
   useEffect(() => {
     dispatch(fetchStudents());
-  }, []);
+  }, [dispatch]);
   // console.log(student.students);
   return (
     <Flex width={"100%"} flexDir={"column"} gap={4}>
@@ -58,35 +58,6 @@ const AdminStudent = () => {
               icon={<DeleteIcon />}
             />
           </Flex>
-          {/* <Box direction="column" align="center" p={10} key={student._id}>
-            <Flex direction="column" align="center">
-              <Image
-                boxSize="100px"
-                objectFit="cover"
-                src={student.image.url}
-                alt="The Vibe"
-              />
-              <Heading as="h2" size="xl" fontStyle="cursive">
-                {student.name}
-              </Heading>
-              <Box display="Flex" gap={6}>
-                <Box display="flex" flexDirection="column">
-                  <Text as="i">Reading : {student.reading}</Text>
-                  <Text as="i">Writing : {student.writing}</Text>
-                </Box>
-                <Box display="flex" flexDirection="column">
-                  <Text as="i">Listening : {student.listening}</Text>
-                  <Text as="i">Speaking : {student.speaking}</Text>
-                </Box>
-              </Box>
-              <Text as="b">Overall : {student.overall}</Text>
-              <Button onClick={() =>
-                deleteStudentHandler(student._id)
-              }>
-                Delete Student
-              </Button>
-            </Flex>
-          </Box> */}
           </>
         );
       })}

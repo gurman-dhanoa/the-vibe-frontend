@@ -1,5 +1,4 @@
 import React, {useState,useEffect} from "react";
-import { useNavigate } from "react-router-dom";
 import { Input, InputGroup, InputRightElement, Button, useToast } from "@chakra-ui/react";
 import { FormControl, FormLabel } from "@chakra-ui/react";
 import { registerAdmin } from '../../redux/Auth/authAction';
@@ -13,7 +12,7 @@ const AdminRegister = () => {
   const submitForm = (data) => {
     dispatch(registerAdmin(data))
   };
-  const {error, success, adminToken} = useSelector((state) => state.adminAuth)
+  const {error, success} = useSelector((state) => state.adminAuth)
   const toast = useToast()
     useEffect(() => {
       if (error) {

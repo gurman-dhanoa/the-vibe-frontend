@@ -4,7 +4,6 @@ import { FormControl, FormLabel } from "@chakra-ui/react";
 import { loginAdmin } from '../../redux/Auth/authAction';
 import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
 
 const Adminlogin = () => {
   
@@ -20,8 +19,7 @@ const Adminlogin = () => {
   const submitForm = (data) => {
     dispatch(loginAdmin(data))
   };
-  const {error, success, adminToken} = useSelector((state) => state.adminAuth)
-  const navigate = useNavigate()
+  const {error, success} = useSelector((state) => state.adminAuth)
     useEffect(() => {
       if (error) {
         toast({
