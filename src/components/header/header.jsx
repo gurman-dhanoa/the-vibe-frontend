@@ -1,6 +1,6 @@
 import { Flex, Image, Link, Button, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody } from "@chakra-ui/react";
 import { useSelector } from 'react-redux';
-import logo from "./../../images/Logo.svg";
+import logo from "./../../images/logo.png";
 
 import './header.css'
 import Admin from "../admin/Admin";
@@ -21,7 +21,7 @@ const Header = () => {
   const {adminToken} = useSelector((state) => state.adminAuth);
   return (
     <Flex className="header" gap={3}>
-        <Image src={logo} alt="The Vibe"/>
+        <Image src={logo} height={"100px"} alt="The Vibe"/>
         <Flex style={linkStyle}>
             
             <Link href='/#home'>Home</Link>

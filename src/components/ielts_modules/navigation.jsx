@@ -41,7 +41,13 @@ const Navigation = () => {
         <Box onClick={()=>viewHandler("visa")}>
           <Flex className="serviceCard">
             <Flex className="cardTitle" bgImage={visaBg}><Text className="cardTitleText">VISA & IMMIGRATION</Text></Flex>
-            <Text className="cardDesc">IELTS is accepted as proof of English language ability for study, work and migration in Australia, Canada, New Zealand and the UK.Each country sets its own IELTS score requirements which we have listed below. Scores requirements will also vary depending on the requirements of your visa, and where you plan to study or work.</Text>
+            <Text className="cardDesc">
+            Immigration -<br/>
+            Canada / Australia / Uk /USA / Europe<br/>
+            Package services are available || We only deal in genuine profiles without using any fake documents.<br/>
+            Files will be processed by Legal layers in all countries.<br/>
+            Free profile assessment with in a one day.<br/>
+            </Text>
           </Flex>
         </Box>
       </Flex>

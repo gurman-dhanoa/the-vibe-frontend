@@ -9,7 +9,7 @@ const About = () => {
         <VStack className='aboutRight'>
             <Text className="aboutHeading">The Vibe</Text>
             <Text className="aboutSubHeading">Door To High Score</Text>
-            <UnorderedList p={"10px"} fontSize={"20px"} fontWeight={400}>
+            <UnorderedList p={"15px"} fontSize={"20px"} fontWeight={400}>
                 <ListItem>Immigration Service</ListItem>
                 <ListItem>online and Offline IELTS classes <br/>( around 20+ successful results from online training )</ListItem>
                 <ListItem>Free trial Classes </ListItem>
