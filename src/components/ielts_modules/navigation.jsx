@@ -47,7 +47,7 @@ const Navigation = () => {
       </Flex>
       <Modal onClose={onClose} size="30rem" isOpen={isOpen}>
         <ModalOverlay />
-        <ModalContent maxW="70vw">
+        <ModalContent maxW="90vw">
           <ModalCloseButton />
           <ModalBody p={"20px"} fontFamily={"Raleway, sans-serif"}>
             {view === "ilets" && <Ilets/>}
