@@ -3,6 +3,7 @@
     width:100%;
     height:100vh;
     background-size:cover;
+    background-position: right;
 }
 .landing{
     flex: 1 1 auto;
@@ -13,8 +14,8 @@
     color:#ffffff;
     font-family: Raleway, sans-serif;
     font-size:60px;
-    font-weight:400;
-    width:80vw;
+    font-weight:700;
+    width:90vw;
     margin:auto;
 }
 @media screen and (max-width: 850px) {

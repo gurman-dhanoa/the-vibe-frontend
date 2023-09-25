@@ -29,7 +29,7 @@ const Navigation = () => {
       <Flex className="services">
         <Box onClick={()=>viewHandler("ilets")}>
           <Flex className="serviceCard">
-            <Flex className="cardTitle" bgImage={ilets}><Text className="cardTitleText">ILETS</Text></Flex>
+            <Flex className="cardTitle" bgImage={ilets}><Text className="cardTitleText">IELTS</Text></Flex>
             <Text className="cardDesc">The IELTS, or International English Language Testing System, is a standardized test designed to assess the language proficiency of individuals who want to study, work, or live in an English-speaking environment. It is recognized and accepted by universities, employers, and immigration authorities in many countries around the world.</Text>
           </Flex>
         </Box>

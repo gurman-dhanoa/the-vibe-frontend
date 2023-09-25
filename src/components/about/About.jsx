@@ -11,7 +11,7 @@ const About = () => {
             <Text className="aboutSubHeading">Door To High Score</Text>
             <UnorderedList p={"10px"} fontSize={"20px"} fontWeight={400}>
                 <ListItem>Immigration Service</ListItem>
-                <ListItem>online and Offline ILETS classes <br/>( around 20+ successful results from online training )</ListItem>
+                <ListItem>online and Offline IELTS classes <br/>( around 20+ successful results from online training )</ListItem>
                 <ListItem>Free trial Classes </ListItem>
                 <ListItem>Well Prepared Study material </ListItem>
                 <ListItem>One to one preparatory session flexible timings</ListItem>

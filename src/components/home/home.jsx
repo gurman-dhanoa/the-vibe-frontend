@@ -11,7 +11,7 @@ import './home.css'
 const Home = () => {
   return (
     <>
-      <Flex id='home' className='landingContainer' bgImg={landingBg}>
+      <Flex id='home' className='landingContainer' bgImg={`linear-gradient(45deg,rgba(0,0,0, 0.75),rgba(0,0,0, 0.25)), url(${landingBg})`}>
         <Header/>
         <Flex className='landing'>Experience Quality IELTS Coaching for Guaranteed Results</Flex>
       </Flex>
