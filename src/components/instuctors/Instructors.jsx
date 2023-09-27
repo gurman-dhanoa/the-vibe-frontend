@@ -43,7 +43,7 @@ const Instructors = () => {
           <Flex style={cardTitle} bgImg={instructor1}><Text style={cardTitleText}>Navdeep Singh</Text></Flex>
         </Box>
         <Box style={resultCard}>
-          <Flex style={cardTitle} bgImg={instructor2}><Text style={cardTitleText}>Harkirat Kaur</Text></Flex>
+          <Flex style={cardTitle} bgImg={instructor2}><Text style={cardTitleText}>Harkirat Virk</Text></Flex>
         </Box>
       </Flex>
     </Flex>

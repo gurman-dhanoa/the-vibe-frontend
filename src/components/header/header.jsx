@@ -21,7 +21,7 @@ const Header = () => {
   const {adminToken} = useSelector((state) => state.adminAuth);
   return (
     <Flex className="header" gap={3}>
-        <Image src={logo} height={"100px"} alt="The Vibe" shadow={"2px 2px linear-gradient(45deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1))"}/>
+        <Image src={logo} height={"80px"} alt="The Vibe" shadow={"2px 2px linear-gradient(45deg,rgba(255,255,255,0.1),rgba(255,255,255,0.1))"}/>
         <Flex style={linkStyle}>
             
             <Link href='/#home'>Home</Link>

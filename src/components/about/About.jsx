@@ -7,14 +7,13 @@ const About = () => {
     <Flex id='about' className='aboutContainer'>
         <Image className='aboutImage' src={logo} alt="The Vibe" h="250px"/>
         <VStack className='aboutRight'>
-            <Text className="aboutHeading">The Vibe</Text>
-            <Text className="aboutSubHeading">Door To High Score</Text>
+            <Text className="aboutHeading">Why To Join THE VIBE ?</Text>
             <UnorderedList p={"15px"} fontSize={"20px"} fontWeight={400}>
-                <ListItem>Immigration Service</ListItem>
-                <ListItem>online and Offline IELTS classes <br/>( around 20+ successful results from online training )</ListItem>
-                <ListItem>Free trial Classes </ListItem>
-                <ListItem>Well Prepared Study material </ListItem>
-                <ListItem>One to one preparatory session flexible timings</ListItem>
+                <ListItem>We are serving most affordable and genuine education.</ListItem>
+                <ListItem>All the staff are IDP Certified.</ListItem>
+                <ListItem>We are focused on the basic concept of IELTS and PTE</ListItem>
+                <ListItem>We start from Zero and hit the advanced topics of each modules.</ListItem>
+                <ListItem>Around 300+ offline and 200 + online success stories with in a year .</ListItem>
             </UnorderedList>
         </VStack>
     </Flex>

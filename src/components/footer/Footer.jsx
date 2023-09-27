@@ -12,7 +12,9 @@ const Footer = () => {
         <VStack className='footerContainer'>
             <Box className='footer'>
                 <Flex className='footerLeft'>
-                    <Text className='fontStyle'>Open for any offers and collaborations.</Text>
+                    <Text className='fontStyle'>Location:</Text>
+                    <Text className='fontStyle'><b>Branch 1 :</b> Swera Hotel Street, Near bus stand, Sirsa</Text>
+                    <Text className='fontStyle'><b>Branch 2 :</b> Near socitey bus stand, Rania, Sirsa</Text>
                     <Flex>
                         <Link isExternal href='https://www.instagram.com/_the__vibe_ielts_immigration/'><Image className="mediaIcon" src={insta} alt="Instagram"/></Link>
                         <Link isExternal href='https://youtube.com/@THEVIBEIELTSWORLDWIDE?si=mhPtoW4RiRcpIhRP'><Image className="mediaIcon" src={youtube} alt="Youtube"/></Link>
